@@ -1,0 +1,7 @@
+Running: xsim.dir/test_flowing_light_behav/xsimk.exe -simmode gui -wdb test_flowing_light_behav.wdb -simrunnum 0 -socket 60842
+Design successfully loaded
+Design Loading Memory Usage: 20124 KB (Peak: 20124 KB)
+Design Loading CPU Usage: 155 ms
+Simulation completed
+Simulation Memory Usage: 20492 KB (Peak: 20492 KB)
+Simulation CPU Usage: 155 ms

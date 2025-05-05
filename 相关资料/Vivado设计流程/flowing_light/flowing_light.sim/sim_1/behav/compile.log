@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/work/flowing_light/flowing_light.srcs/sources_1/new/flowing_light.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flowing_light
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/work/flowing_light/flowing_light.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_flowing_light
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/work/flowing_light/flowing_light.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,5 +1,7 @@
 # 基于FPGA的数字计算器
 
+工具：ego1开发板、Vivado2017.2
+
 只放了主要代码，仿真部分有些大，不好上传
 
 “总结报告”较为详细的介绍了代码内容
@@ -7,6 +9,8 @@
 这是我在本科科研训练的项目(虽然比较简单T-T)
 
 # FPGA-Based Digital Calculator
+
+Tools:ego1,Vivado2017.2
 
 Only the core code is included here; simulation files were omitted due to size constraints.
 

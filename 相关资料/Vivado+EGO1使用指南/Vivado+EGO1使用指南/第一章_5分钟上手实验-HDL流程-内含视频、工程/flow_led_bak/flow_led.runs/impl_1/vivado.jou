@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Oct 30 09:57:23 2020
+# Process ID: 2612
+# Current directory: E:/tan/edadesign/Vivado/flow_led/flow_led.runs/impl_1
+# Command line: vivado.exe -log flow_led.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source flow_led.tcl -notrace
+# Log file: E:/tan/edadesign/Vivado/flow_led/flow_led.runs/impl_1/flow_led.vdi
+# Journal file: E:/tan/edadesign/Vivado/flow_led/flow_led.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source flow_led.tcl -notrace

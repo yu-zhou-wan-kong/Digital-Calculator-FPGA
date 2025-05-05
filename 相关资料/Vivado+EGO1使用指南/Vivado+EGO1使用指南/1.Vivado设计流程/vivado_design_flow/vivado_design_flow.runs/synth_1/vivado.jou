@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun  1 18:00:20 2017
+# Process ID: 11888
+# Current directory: D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.runs/synth_1
+# Command line: vivado.exe -log flowing_light.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source flowing_light.tcl
+# Log file: D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.runs/synth_1/flowing_light.vds
+# Journal file: D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source flowing_light.tcl -notrace

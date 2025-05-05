@@ -1,0 +1,228 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Thu Jun  1 18:02:15 2017
+| Host         : PC201705240936 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_methodology -file flowing_light_methodology_drc_routed.rpt -rpx flowing_light_methodology_drc_routed.rpx
+| Design       : flowing_light
+| Device       : xc7a35tcsg324-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 32
++-----------+----------+------------------------------------------+------------+
+| Rule      | Severity | Description                              | Violations |
++-----------+----------+------------------------------------------+------------+
+| TIMING-16 | Warning  | Large setup violation                    | 16         |
+| XDCH-2    | Warning  | Same min and max delay values on IO port | 16         |
++-----------+----------+------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -2.695 ns between light_reg_reg[3]_lopt_replica/C (clocked by clk_pin) and led[3] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -2.697 ns between light_reg_reg[4]_lopt_replica/C (clocked by clk_pin) and led[4] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -2.712 ns between light_reg_reg[6]_lopt_replica/C (clocked by clk_pin) and led[6] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -2.714 ns between light_reg_reg[7]_lopt_replica/C (clocked by clk_pin) and led[7] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -2.716 ns between light_reg_reg[12]_lopt_replica/C (clocked by clk_pin) and led[12] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -2.721 ns between light_reg_reg[15]_lopt_replica/C (clocked by clk_pin) and led[15] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -2.728 ns between light_reg_reg[13]_lopt_replica/C (clocked by clk_pin) and led[13] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -2.775 ns between light_reg_reg[8]_lopt_replica/C (clocked by clk_pin) and led[8] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -2.777 ns between light_reg_reg[5]_lopt_replica/C (clocked by clk_pin) and led[5] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -2.810 ns between light_reg_reg[1]/C (clocked by clk_pin) and led[1] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -2.840 ns between light_reg_reg[9]_lopt_replica/C (clocked by clk_pin) and led[9] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -2.856 ns between light_reg_reg[10]_lopt_replica/C (clocked by clk_pin) and led[10] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -2.856 ns between light_reg_reg[11]_lopt_replica/C (clocked by clk_pin) and led[11] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -2.870 ns between light_reg_reg[14]_lopt_replica/C (clocked by clk_pin) and led[14] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -2.879 ns between light_reg_reg[0]/C (clocked by clk_pin) and led[0] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -2.885 ns between light_reg_reg[2]/C (clocked by clk_pin) and led[2] (clocked by clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[0]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[10]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[11]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[12]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[13]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[14]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[15]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[1]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[2]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[3]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[4]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[5]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[6]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[7]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#15 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[8]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+XDCH-2#16 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[9]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+D:/Jonlen/EGO_2017/MyWork/test/project/vivado_design_flow/vivado_design_flow.srcs/constrs_1/new/top.xdc (Line: 43)
+Related violations: <none>
+
+
